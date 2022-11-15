@@ -1,0 +1,22 @@
+{% load static %}
+<div class="an-sidebar-nav js-sidebar-toggle-with-click">
+    <div class="an-sidebar-nav">
+        <ul class="an-main-nav">
+            <li class="an-nav-item">
+                <a class="" href="../index/">
+                    <i class="icon-marker"></i>
+                    <span class="nav-title">首页</span>
+                </a>
+            </li>
+            {% if permission == 1 %}
+            <li class="an-nav-item">
+                <a class="" href="../postman_info_list/">
+                    <i class="icon-marker"></i>
+                    <span class="nav-title">用户管理</span>
+                </a>
+            </li>
+            {% endif %}
+
+        </ul> <!-- end .AN-MAIN-NAV -->
+    </div> <!-- end .AN-SIDEBAR-NAV -->
+</div> <!-- end .AN-SIDEBAR-NAV -->
