@@ -1,0 +1,48 @@
+{
+  "clearInfo": {
+    "clearUrl": "/api/clear.json"
+  },
+  "homeInfo": {
+    "title": "首页",
+    "icon": "fa fa-home",
+    "href": "/welcome"
+  },
+  "logoInfo": {
+    "title": "诊疗系统",
+    "href": ""
+  },
+  "menuInfo": {
+    "currency": {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "child": [
+        {
+          "title": "主页",
+          "href": "/welcome",
+          "icon": "fa fa-window-maximize",
+          "target": "_self"
+        },
+        {
+          "title": "病例管理",
+          "href": "/records",
+          "icon": "fa fa-file-text",
+          "target": "_self"
+        },
+        {
+          "title": "诊疗管理",
+          "href": "/index",
+          "icon": "fa fa-calendar",
+          "target": "_self",
+          "child": [
+            {
+              "title": "诊疗记录管理",
+              "href": "page/form.html",
+              "icon": "fa fa-list-alt",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

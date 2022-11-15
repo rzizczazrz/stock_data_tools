@@ -1,0 +1,29 @@
+{
+  "clearInfo": {
+    "clearUrl": "/api/clear.json"
+  },
+  "homeInfo": {
+    "title": "首页",
+    "icon": "fa fa-home",
+    "href": "/welcome"
+  },
+  "logoInfo": {
+    "title": "诊疗系统",
+    "image": "static/images/bg.png",
+    "href": ""
+  },
+  "menuInfo": {
+    "currency": {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "child": [
+        {
+          "title": "主页",
+          "href": "/welcome",
+          "icon": "fa fa-window-maximize",
+          "target": "_self"
+        }
+      ]
+    }
+  }
+}
